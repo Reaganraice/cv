@@ -20,6 +20,7 @@ body{
     margin: 100px auto;
     font-size: 100%;
     font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
 }
 
 .about{
@@ -59,10 +60,11 @@ h1{
 
 .navtag{
     background:#3D2C2E;
-    height: 15%;
+    height: auto;
     position: fixed;
     top: 0;
     width: 100%;
+    padding-top: 10px;
      
 }
 
@@ -95,7 +97,7 @@ h1{
     border-radius: 10px;
     display: inline-block;
     width: 30%;
-    height: 300px;
+    height: auto;
     margin-left: 8px;
     margin-top: 100px;
 }
