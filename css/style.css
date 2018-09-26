@@ -99,6 +99,9 @@ h1{
     margin: 19px;
     padding: 12px;
 }
+.nav-navtag li:hover{
+    background-color: black;
+}
 #log{
     margin-left: 29%;
     margin-bottom: 10px;
