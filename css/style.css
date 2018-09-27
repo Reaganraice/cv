@@ -87,8 +87,9 @@ h1{
 
 .ili{
     display: block;
-    margin: 5px;
+    margin: 10px;
 }
+
 
 .ili p{
     font-size: 12.5px;
@@ -98,8 +99,8 @@ h1{
     font-size: 18px;
     text-decoration: none;
     color: azure;
-    margin: 19px;
-    padding: 12px;
+    /* margin: 19px;
+    padding: 12px; */
 }
 .nav-navtag li:hover{
     background-color: black;
