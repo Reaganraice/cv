@@ -12,25 +12,29 @@ body{
     margin: 0;
 
 }
+li{
+    font-size: 18px;
+}
 .content{
     background-color: rgba(0,0,0,0.5);
     color: azure;
     padding: 50px;
     width: 60%;
     margin: 100px auto;
-    font-size: 100%;
+    font-size: 18px;
     font-family: 'Nunito', sans-serif;
     border-radius: 10px;
 }
 
 .skills-container {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    margin-bottom:50px;
 }
 
 .about{
     text-align: center;
-    font-size: 120%;
+    font-size: 18px;
     margin: 20px auto;
     padding: 20px ;
     margin-top: 120px;
@@ -92,18 +96,19 @@ h1{
 
 
 .ili p{
-    font-size: 12.5px;
+    font-size: 14px;
 }
 
  a {
     font-size: 18px;
     text-decoration: none;
     color: azure;
-    /* margin: 19px;
-    padding: 12px; */
 }
 .nav-navtag li:hover{
     background-color: black;
+    padding: 0;
+    margin: 0;
+    border-radius:3px;
 }
 #log{
     margin-left: 29%;
@@ -123,6 +128,8 @@ h1{
     width: 90px;
     margin: 0 auto;
     padding: 0px;
+    margin-bottom: 3px;
+
 }
 
 .portfolio-content a{
@@ -141,6 +148,7 @@ h1{
 .o, .h{
     display: flex;
     flex-wrap: wrap;
+  
 }
 
 .mynum{
@@ -148,6 +156,7 @@ h1{
     margin-left: 80px;
     margin-top: -50px;
 }
+
 .me{
     width: 150px;
     margin-left: 15%; 
@@ -156,5 +165,11 @@ h1{
 .port-content{
     display: flex;
     justify-content: space-between;
+}
+
+.Portfolio-header li{
+    font-size: 12px;
+    list-style-type: none;
+    margin: 2px;
 }
 
