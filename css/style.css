@@ -86,10 +86,27 @@ h1{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+/* .nav-navtag li{
+    width: 10%;
+} */
+
 
 .ili{
     display: block;
-    margin: 5px;  
+    margin: 5px;
+}
+/* .ili a img{
+    width: 50px;
+    display: auto;
+
+}
+.ili  img{
+    width: 50px;
+    display: auto;
+
+} */
+.ili p{
+    font-size: 12.5px;
 }
 
  a {
