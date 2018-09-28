@@ -58,7 +58,8 @@ h1{
 
 .find{
     display: inline-block;
-    font-size: 100%; 
+    font-size: 100%;
+    padding: 0; 
 }
 
 .navbar-navbar-inverse{
@@ -96,13 +97,15 @@ h1{
 
 
 .ili p{
-    font-size: 14px;
+    font-size: 16px;
 }
 
- a {
+ .nav-navtag a {
     font-size: 18px;
     text-decoration: none;
     color: azure;
+    display: block;
+    padding: 10px;
 }
 .nav-navtag li:hover{
     background-color: black;
