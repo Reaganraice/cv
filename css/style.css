@@ -1,0 +1,187 @@
+body{
+    background: url(../images/home.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: auto;
+    height:auto;
+
+    margin: 0;
+
+}
+li{
+    font-size: 18px;
+}
+.content{
+    background-color: rgba(0,0,0,0.5);
+    color: azure;
+    padding: 50px;
+    width: 60%;
+    margin: 100px auto;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 10px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:50px;
+}
+
+.about{
+    text-align: center;
+    font-size: 18px;
+    margin: 20px auto;
+    padding: 20px ;
+    margin-top: 120px;
+}
+
+h1{
+    text-align: center;
+    font-size: 47px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+}
+
+:hover h1{
+    background: rgba(0,0,0,0.5);
+    color: red;
+}
+
+.skil{
+    margin-top: 120px;
+    border-radius: 10px;
+}
+
+.find{
+    display: inline-block;
+    font-size: 100%;
+    padding: 0;
+}
+
+.navbar-navbar-inverse{
+    background: rgba(0,0,0,0.5);
+   margin: 30px;
+   display: block;
+
+}
+
+.navtag{
+    background:#3D2C2E;
+    height: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 10px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.nav-navtag{
+    list-style-type: none;
+    width: 75%;
+    padding: 10px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ili{
+    display: block;
+    margin: 10px;
+}
+
+
+.ili p{
+    font-size: 16px;
+}
+
+ .nav-navtag a {
+    font-size: 18px;
+    text-decoration: none;
+    color: azure;
+    display: block;
+    padding: 10px;
+}
+.nav-navtag li:hover{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    border-radius:3px;
+}
+#log{
+    margin-left: 29%;
+    margin-bottom: 10px;
+}
+.port{
+    border-radius: 10px;
+    display: inline-block;
+    width: 90%;
+    height: auto;
+    margin-left: 8px;
+    margin-top: 100px;
+}
+
+.Portfolio-header{
+    font-size: 15px;
+    width: 90px;
+    margin: 0 auto;
+    padding: 0px;
+    margin-bottom: 3px;
+
+}
+
+.portfolio-content a{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.portfolio-content a img{
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+
+}
+
+.o, .h{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.mynum{
+    display: flex;
+    margin-left: 80px;
+    margin-top: -50px;
+}
+
+.me{
+    width: 150px;
+    margin-left: 15%;
+    border-radius: 10%;
+}
+.port-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Portfolio-header li{
+    font-size: 12px;
+    list-style-type: none;
+    margin: 2px;
+}
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
